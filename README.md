@@ -1,4 +1,4 @@
-![CrowdStrike Kinesis Lambda](docs/assets/cs-logo.png)
+![CrowdStrike Kinesis Lambda](https://raw.githubusercontent.com/CrowdStrike/AWS-Kinesis-Falcon-Logscale-Lambda-Integration/main/docs/assets/cs-logo.png)
 
 [![Twitter URL](https://img.shields.io/twitter/url?label=Follow%20%40CrowdStrike&style=social&url=https%3A%2F%2Ftwitter.com%2FCrowdStrike)](https://twitter.com/CrowdStrike)<br/>
 
@@ -20,13 +20,13 @@ A Python AWS Lambda function to send AWS Kinesis stream events to Falcon LogScal
   - copy/paste the `lambda_function.py` code to the new Lambda function `lambda_function.py`
 - create new file named `logscale.py`, in the Lambda function
   - copy/paste the `logscale.py` code
-<p align="left"><img width="200px" src="docs/assets/lambda_src_tree.png"></p>
+<p align="left"><img width="200px" src="https://raw.githubusercontent.com/CrowdStrike/AWS-Kinesis-Falcon-Logscale-Lambda-Integration/main/docs/assets/lambda_src_tree.png"></p>
 
 - configure required Lambda environmental variables
   - HOST - target LogScale server
   - REPOSITORY - target LogScale repository
   - TOKEN - LogScale ingest token
-<p align="left"><img width="500px" src="docs/assets/env_vars.png"></p>
+<p align="left"><img width="500px" src="https://raw.githubusercontent.com/CrowdStrike/AWS-Kinesis-Falcon-Logscale-Lambda-Integration/main/docs/assets/env_vars.png"></p>
 
 - configure the lambda run timeout setting
   - increase the function timeout value above the default (3 secs)
@@ -41,7 +41,7 @@ A Python AWS Lambda function to send AWS Kinesis stream events to Falcon LogScal
 #### Enable a Kinesis Trigger
 
 - Enable a lambda trigger from the kinesis source
-<p align="left"><img width="500px" src="docs/assets/lambda_trigger.png"></p>
+<p align="left"><img width="500px" src="https://raw.githubusercontent.com/CrowdStrike/AWS-Kinesis-Falcon-Logscale-Lambda-Integration/main/docs/assets/lambda_trigger.png"></p>
 
 #### Create Lambda Test Events
 
@@ -77,7 +77,7 @@ A Python AWS Lambda function to send AWS Kinesis stream events to Falcon LogScal
 
 - create a new target ingest repository, or select an existing repository
 
-<p align="left"><img width="500px" src="docs/assets/new_repo.png"></p>
+<p align="left"><img width="500px" src="https://raw.githubusercontent.com/CrowdStrike/AWS-Kinesis-Falcon-Logscale-Lambda-Integration/main/docs/assets/new_repo.png"></p>
 
 - create an ingest token, or use the default token
 - configure ingest parsing
@@ -93,5 +93,5 @@ A Python AWS Lambda function to send AWS Kinesis stream events to Falcon LogScal
 
 ---
 
-<p align="center"><img src="docs/assets/cs-logo-footer.png"><BR/><img width="250px" src="docs/assets/adversary-red-eyes.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/CrowdStrike/AWS-Kinesis-Falcon-Logscale-Lambda-Integration/main/docs/assets/cs-logo-footer.png"><BR/><img width="250px" src="https://raw.githubusercontent.com/CrowdStrike/AWS-Kinesis-Falcon-Logscale-Lambda-Integration/main/docs/assets/adversary-red-eyes.png"></p>
 <h3><p align="center">WE STOP BREACHES</p></h3>
