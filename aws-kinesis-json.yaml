@@ -1,0 +1,5 @@
+name: aws-kinesis-json
+fieldsToBeRemovedBeforeParsing: []
+$schema: https://schemas.humio.com/parser/v0.2.0
+script: parseJson()  | @timezone := "Z" | parseJson(field=kinesis.data)
+tagFields: []
